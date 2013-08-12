@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="height=device-height,width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+  <title>TuneClout Discovery Page</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet"  href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  <link type="text/css" href="/assets/tuneclout-discovery.css" rel="stylesheet"  />  
+
+   <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="/assets/jplayer/jquery.jplayer.min.js"></script>  
+  <script type="text/javascript" src="/assets/facebook.js"></script>  
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
+            oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+          });
+        },
+        swfPath: "/js",
+        supplied: "m4a, oga",
+        cssSelectorAncestor: "",
+        cssSelector: {
+          play: "#play",
+          pause: "#pause",
+          stop: "#stop",
+          mute: "#mute",
+          unmute: "#unmute",
+          currentTime: "#currentTime",
+          duration: "#duration",
+          seekBar: "#seek",
+          playBar: "#playBar"
+        }    
+    });<!-- end jplayer -->
+
+      $("#save").popup({
+            popupbeforeposition: function() {
+                var w = $( window ).width();
+
+                $( "#save" ).css( "width", w );
+            }
+        }); <!-- end save popup -->
+
+        $("#buy").popup({
+            popupbeforeposition: function() {
+                var w = $( window ).width();
+                $( "#buy" ).css( "width", w );
+            }
+        });<!-- end buy popup -->
+
+         window.fbAsyncInit = function() {
+    // init the FB JS SDK
+    FB.init({
+      appId      : '115393751997458',               // App ID from the app dashboard
+      channelUrl : 'channel.html',          // Channel file for x-domain comms
+      status     : true,                            // Check Facebook Login status
+      frictionlessRequests : true,                  // enable frictionless requests
+      xfbml      : true                             // Look for social plugins on the page
+    });
+
+    // Additional initialization code such as adding Event Listeners goes here
+    
+    FB.getLoginStatus(function(response) {
+      if (response.status === 'connected') {
+        // the user is logged in and has authenticated your
+        // app, and response.authResponse supplies
+        // the user's ID, a valid access token, a signed
+        // request, and the time the access token 
+        // and signed request each expire
+        var uid = response.authResponse.userID;
+        var accessToken = response.authResponse.accessToken;
+      } else if (response.status === 'not_authorized') {
+        // the user is logged in to Facebook, 
+        // but has not authenticated your app
+        alert("the user isnt logged in to Facebook");
+      } else {
+         alert("the user isnt logged in to Facebook");
+      }
+     }); //loginstatus
+
+  }; //window async
+  
+  
+  // Load the SDK asynchronously
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/all.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+    });<!-- end doc ready -->
+  </script>
+  
+
+   <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+	
+		<div class="container">
+			<% flash.each do |key, value| %>
+	        	<%= content_tag(:div, value, class: "alert alert-#{key}") %>
+	      	<% end %>
+			<%= yield %>
+			<%= debug(params) if Rails.env.development? %>
+		</div>
+</body>
+</html>

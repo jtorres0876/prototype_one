@@ -1,0 +1,67 @@
+// Place all the styles related to the Static_Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(_assets/indexBackground.jpg);
+	color: #FFF;
+	height: 100%;
+}
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+#siteNav {
+	text-align: right;
+	height: 30px;
+	padding-top: 1px;
+	padding-right: 75px;
+}
+#siteNav h3 a {
+}
+#branding {
+	height: 5px;
+}
+#mainContent {
+	max-width: 50%;
+	width: 50%;
+	float: left;
+	height: 755px;
+	min-width: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#mainContent h4 a {
+	background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 41.45% , rgba(76,146,185,1.00)),color-stop( 63.21% , rgba(54,109,140,1.00)));
+	background-image: -webkit-linear-gradient(270deg,rgba(76,146,185,1.00) 41.45%,rgba(54,109,140,1.00) 63.21%);
+	background-image: -moz-linear-gradient(270deg,rgba(76,146,185,1.00) 41.45%,rgba(54,109,140,1.00) 63.21%);
+	background-image: -o-linear-gradient(270deg,rgba(76,146,185,1.00) 41.45%,rgba(54,109,140,1.00) 63.21%);
+	background-image: linear-gradient(180deg,rgba(76,146,185,1.00) 41.45%,rgba(54,109,140,1.00) 63.21%);
+	padding: 15px 80px;
+	margin-left: 60px;
+	border-radius: 10px;
+	border-color: #666666;
+	border-width: medium;
+}
+#app {
+	max-width: 50%;
+	width: 45%;
+	float: right;
+	height: 755px;
+}
+#tcApp {
+	margin-right: 47px;
+	margin-left: 60px;
+	height: 5px;
+	margin-top: 134px;
+}
+#app #tcApp h2 iframe {
+}
+#footer {
+	height: 200px;
+	text-align: center;
+}

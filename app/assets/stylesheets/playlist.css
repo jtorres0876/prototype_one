@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.tc-discover-playlist {
+	background:none !important;
+	font-family: 'Droid Sans', sans-serif;
+	color: #7accc8 !important;
+}
+
+.playlist-header {
+	border-top: 1px solid #666666;
+	border-bottom: 1px dotted #666;
+}
+
+.playlist-header .ui-btn-up-c {
+	background-color:#333 !important;
+}
+
+.playlist-header {
+	font-weight:lighter;
+}
+
+.tc-discover-playlist .ui-collapsible-inset {
+	margin: 0px !important;
+}
+
+.tc-discover-playlist .ui-btn-inner {
+	padding: 0px !important;
+}
+
+article.tc-discover-body header, article.tc-discover-body header a {
+	padding-left: 40px;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+	background-image:url("images/icons-18-white.png")
+}
+
+.ui-tabs .ui-tabs-panel {
+	padding: 0;
+}
+
+.ui-tabs {
+	padding: 0;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	background:none;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	width: 33.128%;
+	text-align:center;
+	margin-bottom:0 !important;
+	margin:0 !important;
+	background-color:black !important;
+	padding: 10px 0px;
+}
+
+.ui-widget-content {
+	border:none;
+	background:none;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+	float:none;
+	font-weight:lighter;
+	font-size: 14px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	border-top-right-radius:0 !important;
+	border-top-left-radius:0 !important;
+}
+
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+	border: 0px !important;
+}
+
+.ui-tabs .ui-tabs-nav li:nth-child(2) {
+	border-right:1px solid #666 !important;
+	border-left:1px solid #666 !important;
+}
+
+.ui-tabs .ui-tabs-nav {
+	padding:0;
+	margin:0;
+}
+
+.ui-body-c .ui-link:hover {
+	color:#ffffff !important;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a {
+	color:#7FBFB8 !important;
+	font-family: 'Droid Sans', sans-serif;
+	font-size:14px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	padding:10px 0px;
+}
+
+article.tc-discover-body header, article.tc-discover-body header a {
+	border-top:0px !important;
+	border-bottom:0px !important;
+}
+
+.tc-share-icon, .tc-edit-icon {
+	padding:0px !important;
+	background:none !important;
+	float:right;
+}
+
+.tc-share-icon {
+	padding-right:12px !important;
+	width:20px;
+}
+
+.tc-edit-icon {
+	width:20px;
+}
+
+.tc-share-song-icon {
+	float:right;
+	padding-right:17px !important;
+}
+
+.tc-edit-song-icon {
+	float:right;
+}
+
+article.tc-discover-body ul li {
+	background:none;
+}
+
+.tc-song-container {
+	display:inline !important;
+}
+
+.tc-song {
+	float:left;
+}
