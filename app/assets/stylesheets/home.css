@@ -1,13 +1,17 @@
 
-
-.home-footer {
-	text-align: center;
+#home-header {
+	h1 {
+		font-size: 6em;
+		letter-spacing: -2px;
+		margin-bottom: 30px;
+		text-align: center;
+		background-color: #fff;
+	}
 }
-.home-navbar {
-	text-align: center;		
-}
 
+}
 .mybutton {
 	background-image: url("images/homePSD_01.png");
 	background-size: 18px 18px;
 }
+
