@@ -314,7 +314,7 @@ article.tc-discover-body ul li a {
 }
 .tc-product-thumb img{
 	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px
+	-moz-border-radius: 10px;
 	border-radius:10px;
 	width:75px;
 	max-width:100px;
@@ -345,7 +345,7 @@ article.tc-discover-body ul li a {
 }
 .tc-event-photos img {
 	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px
+	-moz-border-radius: 10px;
 	border-radius:10px;
 	float:left;
 	width:85px;
