@@ -341,7 +341,7 @@ article.tc-discover-body ul li a {
 .copy p {
 	padding:0px;
 	margin:5px 0px 10px 5px;
-	;
+	
 }
 .tc-event-photos img {
 	-webkit-border-radius: 10px;
@@ -420,7 +420,7 @@ article.tc-discover-body ul li a {
 	position:relative;
 	top:1px;
 	background:#2b2b2b;
-	max-width: 320px
+	max-width: 320px;
 	
 }
 
