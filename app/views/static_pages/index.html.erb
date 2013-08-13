@@ -1,8 +1,42 @@
 
- <div class="center hero-unit">
- 	
- 	<%= render 'homepage' %>
+ <!-- Page: home -->
+	<div id="home" data-role="page" data-title="Home" class="ui-responsive-panel">
+		<div id="fb-root"></div>
+		
+		<div id="home-header" data-role="header" data-theme="f" data-position="fixed">
+			<!-- Header Menu Icons -->
+			<h1>Tuneclout Music</h1>
+		   	<a href="#" class="ui-btn-left"data-icon="false" data-iconpos="none"><img src="/assets/homePSD_01.png"  alt=""> </a>
+		   	<% if current_user %>
+		   			<a href="signout" class="ui-btn-right" data-icon="false" data-iconpos="none" rel="external">Sign Out</a>
+  				<% else %>
+    				<a href="/auth/facebook" class="ui-btn-right" data-icon="false" data-iconpos="none" rel="external"><img src="/assets/homePSD_02.png" alt=""></a>
+  				<% end %>	
+		</div><!-- /header -->
+		
+		<div data-theme="f" data-role="content" id="homecontent">
 
-</div>
+			<div id="user_nav">
+  				<% if current_user %>
+    				Signed in as <strong><%= current_user.name %></strong>!
+    				
+  				<% else %>
+    				<p> Welcome to the Tuneclout App</p>
+  				<% end %>
+			</div>			
+		</div>
+		
+		<div id="home-footer" data-role="footer" data-position="fixed" class="home-footer" >
+			<div data-role="navbar" class="home-navbar" >
+					<a href="discover" rel="external" ><img src="/assets/homePSD_04.png"> </a>
+					<a href="#" ><img src="/assets/homePSD_05.png"> </a>
+					<a href="#" ><img src="/assets/homePSD_06.png"> </a>
+					<a href="#" ><img src="/assets/homePSD_07.png"> </a>		
+			</div><!-- end home navbar -->
+		</div><!-- end home footer -->	
+		
+		
+
+	</div><!-- home page -->
 
 

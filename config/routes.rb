@@ -7,6 +7,9 @@ Prototype::Application.routes.draw do
   match 'auth/facebook/callback', to: 'sessions#create'
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
+  match 'discover', to: 'static_pages#discover'
+  match 'cart', to: 'static_pages#cart'
+  match 'share', to: 'static_pages#share'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
