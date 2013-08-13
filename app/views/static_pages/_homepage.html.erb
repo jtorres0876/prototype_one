@@ -12,9 +12,14 @@
 		
 		<div data-theme="f" data-role="content" id="homecontent">
 
-			<p><%= link_to "Sign in With Facebook", "auth/facebook?state=listener", class: "btn btn-large btn-primary" %></p>
-    	<p>And start listening now!</p>
-			
+			<div id="user_nav">
+  				<% if current_user %>
+    				Signed in as <strong><%= current_user.name %></strong>!
+    				<%= link_to "Sign out", signout_path, id: "sign_out" %>
+  				<% else %>
+    				<%= link_to "Sign in with Facebook", "/auth/facebook", :rel => "external"%>
+  				<% end %>
+			</div>			
 		</div>
 		
 		<div id="home-footer" data-role="footer" data-position="fixed" class="home-footer" >

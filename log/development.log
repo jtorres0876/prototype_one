@@ -67028,3 +67028,2464 @@ Migrating to CreateUsers (20130813181640)
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
 Connecting to database specified by database.yml
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 12:30:05 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/_homepage.html.erb (1.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 493ms (Views: 492.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:05 -0700
+Served asset /application.css - 304 Not Modified (51ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cart.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /cart.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jplayer.pink.flag.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jplayer.pink.flag.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/playlist.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /playlist.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /static_pages.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/tuneclout-discovery.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tuneclout-discovery.css" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (48ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /bootstrap.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jplayer/add-on/jplayer.playlist.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jplayer/add-on/jplayer.playlist.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /facebook.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jplayer/add-on/jquery.jplayer.inspector.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jplayer/add-on/jquery.jplayer.inspector.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (39ms)
+
+
+Started GET "/assets/jplayer/popcorn/popcorn.jplayer.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jplayer/popcorn/popcorn.jplayer.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jshint.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jshint.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/qunit.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/qunit.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-1.9.1.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /sessions.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/facebook.js" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /facebook.js - 304 Not Modified (59ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /application.js - 304 Not Modified (81ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js" for 127.0.0.1 at 2013-08-13 12:30:06 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/homePSD_07.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /homePSD_07.png - 304 Not Modified (28ms)
+
+
+Started GET "/assets/homePSD_02.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /homePSD_02.png - 304 Not Modified (12ms)
+
+
+Started GET "/assets/homePSD_04.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /homePSD_04.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/homePSD_01.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /homePSD_01.png - 304 Not Modified (13ms)
+
+
+Started GET "/assets/homePSD_06.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /homePSD_06.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/homePSD_05.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /homePSD_05.png - 304 Not Modified (23ms)
+
+
+Started GET "/assets/product-thumb.jpg" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /product-thumb.jpg - 304 Not Modified (37ms)
+
+
+Started GET "/assets/photos.jpg" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /photos.jpg - 304 Not Modified (11ms)
+
+
+Started GET "/assets/photos2.jpg" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /photos2.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos3.jpg" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /photos3.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/like.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /like.png - 304 Not Modified (14ms)
+
+
+Started GET "/assets/dislike.png" for 127.0.0.1 at 2013-08-13 12:30:07 -0700
+Served asset /dislike.png - 304 Not Modified (2ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:30:11 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 12:32:11 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/_homepage.html.erb (0.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 52.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:12 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer.pink.flag.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jplayer.pink.flag.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cart.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /cart.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/playlist.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /playlist.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuneclout-discovery.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuneclout-discovery.css" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/add-on/jplayer.playlist.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jplayer/add-on/jplayer.playlist.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/add-on/jquery.jplayer.inspector.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jplayer/add-on/jquery.jplayer.inspector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/popcorn/popcorn.jplayer.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jplayer/popcorn/popcorn.jplayer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/qunit.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/qunit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jshint.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jshint.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/facebook.js" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_05.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /homePSD_05.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_04.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /homePSD_04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_06.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /homePSD_06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_01.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /homePSD_01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_02.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /homePSD_02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_07.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /homePSD_07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/product-thumb.jpg" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /product-thumb.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.jpg" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /photos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos2.jpg" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /photos2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos3.jpg" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /photos3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/like.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /like.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dislike.png" for 127.0.0.1 at 2013-08-13 12:32:13 -0700
+Served asset /dislike.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/_homepage.html.erb (0.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 54ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cart.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /cart.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer.pink.flag.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jplayer.pink.flag.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/playlist.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /playlist.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuneclout-discovery.css?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuneclout-discovery.css" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/add-on/jplayer.playlist.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jplayer/add-on/jplayer.playlist.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/add-on/jquery.jplayer.inspector.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jplayer/add-on/jquery.jplayer.inspector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/popcorn/popcorn.jplayer.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jplayer/popcorn/popcorn.jplayer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jshint.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jshint.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/qunit.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/qunit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_01.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /homePSD_01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_07.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /homePSD_07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_02.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /homePSD_02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_04.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /homePSD_04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_05.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /homePSD_05.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_06.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /homePSD_06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/product-thumb.jpg" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /product-thumb.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.jpg" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /photos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos2.jpg" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /photos2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos3.jpg" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /photos3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/like.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /like.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dislike.png" for 127.0.0.1 at 2013-08-13 12:33:07 -0700
+Served asset /dislike.png - 304 Not Modified (0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:35:58 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:38:50 -0700
+(facebook) Request phase initiated.
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 12:39:26 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/_homepage.html.erb (1.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (49.7ms)
+Completed 200 OK in 547ms (Views: 546.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:26 -0700
+Served asset /application.css - 304 Not Modified (48ms)
+
+
+Started GET "/assets/cart.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /cart.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jplayer.pink.flag.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jplayer.pink.flag.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom.min.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/playlist.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /playlist.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tuneclout-discovery.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tuneclout-discovery.css" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (39ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /facebook.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /bootstrap.js - 304 Not Modified (52ms)
+
+
+Started GET "/assets/jplayer/add-on/jplayer.playlist.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jplayer/add-on/jplayer.playlist.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jplayer/add-on/jquery.jplayer.inspector.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jplayer/add-on/jquery.jplayer.inspector.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jplayer/popcorn/popcorn.jplayer.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jplayer/popcorn/popcorn.jplayer.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jshint.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jshint.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/qunit.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/qunit.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-1.9.1.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /sessions.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /application.js - 304 Not Modified (50ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (41ms)
+
+
+Started GET "/assets/facebook.js" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /facebook.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/homePSD_02.png" for 127.0.0.1 at 2013-08-13 12:39:27 -0700
+Served asset /homePSD_02.png - 304 Not Modified (17ms)
+
+
+Started GET "/assets/homePSD_04.png" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /homePSD_04.png - 304 Not Modified (15ms)
+
+
+Started GET "/assets/homePSD_01.png" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /homePSD_01.png - 304 Not Modified (11ms)
+
+
+Started GET "/assets/homePSD_07.png" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /homePSD_07.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/homePSD_05.png" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /homePSD_05.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/homePSD_06.png" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /homePSD_06.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/product-thumb.jpg" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /product-thumb.jpg - 304 Not Modified (27ms)
+
+
+Started GET "/assets/photos.jpg" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /photos.jpg - 304 Not Modified (13ms)
+
+
+Started GET "/assets/photos2.jpg" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /photos2.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/photos3.jpg" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /photos3.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/like.png" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /like.png - 304 Not Modified (17ms)
+
+
+Started GET "/assets/dislike.png" for 127.0.0.1 at 2013-08-13 12:39:28 -0700
+Served asset /dislike.png - 304 Not Modified (2ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:39:30 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQA8iuFrHSVgf5gnHp_1diPjXoHJtGQ7sW4zAwx6DS2sZvmsxVYvyrz-o9hJVSkYqt3GzDucwZdlhEsTv9zE8y9FRYQB8Ap5s8Gl7w0er_EiMIGPDr0GgsoG4i04BRmR_CzxqROZjwk7CAcj3Jh8N-b9Clp0jFuZtrigB_9mVgr4Hj7pYz-tcawkw2bk9QFzfFUhjC6YdvWxSpurzpC-qYD5nUFxXaTD9LMd3ctQ7lfZtLe1QUqjjr5ArMbWvNpvXkOh66GUMxI9VNmSR2PkPiSWhqIZznfMXihAcwFe2-k4MLO0GRZzcfncXPUlnbsm1zA&state=83eb27ddd17756cca05bcbd7510c399079539d3226fdef3a" for 127.0.0.1 at 2013-08-13 12:39:43 -0700
+(facebook) Callback phase initiated.
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `block in connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:54:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:99:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:755:in `do_start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:744:in `start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:1284:in `request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.7) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.7) lib/faraday/connection.rb:247:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:100:in `build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `block in build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:174:in `with_authorization_code!'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__484451916406019121__call__4201289226362250848__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:47:10 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQAlM4mjZrP77r_xShtPbzUJaraXz0N9DEgjhtUjq7cqBPboa6bPZS2icCMPozpO_cseVETWF5w0AwDvYbl305ia_iFNvZmNo5RaFsLj0DzwxvOF-ovMVZ23tO2o_CQ5SBiNRaMIl4BZqVYUpUccHJZf9gfBA_ef_2AnQ8L_neJdEFysr_lQU-vi3GBNAkNU5_9AMYVQKzvqlKSAooeLS3xrIjID-QosGInbCIzC8k35db347HZQsuYGvZoPiTl_cVmEP0-J03e1gpppLTAL7T-lohV8NWIAxIEDJGnryidNYjeuxwZSp4TcFW8ivE5mA-0&state=4f4444321e2382063001849cb3f9625b942d0c75f0a6f7f9" for 127.0.0.1 at 2013-08-13 12:47:25 -0700
+(facebook) Callback phase initiated.
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `block in connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:54:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:99:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:755:in `do_start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:744:in `start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:1284:in `request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.7) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.7) lib/faraday/connection.rb:247:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:100:in `build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `block in build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:174:in `with_authorization_code!'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2074786624364146524__call__3710231349211876973__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (23.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:50:42 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQCyDQ26KKcJj0ofxIQpb6ITn8i_qF3d-2-Xxj_M6f7hcHN5OJmiaq7Li_kq_OkS2S4jdPGL7zFy0AqxJrAvGqTVaaWoB6CY3bw4V-z7NM9TLU86THzskPJdTYPav_gttVGemliKjG0zHrXDMhAcNQX1iN8YAYNT-UBGKrA791LMmR0WBefdPgVk2n-8LZQfozHbT45AyhFfHKCtY2QVmSzb4djCWNsRzIz0RNdzQT_2QMMSTO9x1QNcmvxVuUPR3tY-cL5bK6xMBEDRuHnaBKAIyOQ3bn8CXZRy9OujISvB5-KplGvYlS-N9oMrEr8nLpY&state=f6c7ba24832afa9cf057d988517fe65dc8ded25dadf45e1d" for 127.0.0.1 at 2013-08-13 12:50:44 -0700
+(facebook) Callback phase initiated.
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `block in connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:54:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:99:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:755:in `do_start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:744:in `start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:1284:in `request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.7) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.7) lib/faraday/connection.rb:247:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:100:in `build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `block in build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:174:in `with_authorization_code!'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2119785166422529467__call__346795260403027216__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:51:37 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDNBTfZMDIihBLvv1TnNcnrMAA513Ew7AymKztpinbrlRryXslbs2wfgtiyPwYQxytYr5SGn9T4Fo7v6QSSmSmFluQmS1Oxvfey7VpOQ2RPvqXgKU1vzdOKc2VecuzxV2pyI7NR9WquwFMVIJcqz6dGV_V1mb-KAteyd7O0yPGKuAn70S6-hf4U5vokGuCJXP26QCreIWNNZzw7FdisOb8wkLjoKUfJryq4mxfvyOFpGZ47JRtzavt7csDLNNRAYwMA47d9He1wM-CHBQyCKCl2mHP5WBdbJ1bm1RpDIvJ3q9CIxj-xeFRRXauyESfnClI&state=321f7a41b46d13f2fd14fa1ab0e1bdfd2e172b136497828a" for 127.0.0.1 at 2013-08-13 12:51:38 -0700
+(facebook) Callback phase initiated.
+
+Faraday::Error::ConnectionFailed (SSL_connect returned=1 errno=0 state=SSLv3 read server certificate B: certificate verify failed):
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `block in connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:54:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/timeout.rb:99:in `timeout'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:799:in `connect'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:755:in `do_start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:744:in `start'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/net/http.rb:1284:in `request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:75:in `perform_request'
+  faraday (0.8.7) lib/faraday/adapter/net_http.rb:38:in `call'
+  faraday (0.8.7) lib/faraday/request/url_encoded.rb:14:in `call'
+  faraday (0.8.7) lib/faraday/connection.rb:247:in `run_request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:88:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:100:in `build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `block in build_access_token'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:174:in `with_authorization_code!'
+  omniauth-facebook (1.4.1) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.1.0) lib/omniauth/strategies/oauth2.rb:75:in `callback_phase'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:226:in `callback_call'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:182:in `call!'
+  omniauth (1.1.4) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.1.4) lib/omniauth/builder.rb:49:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__2598496421115178579__call__2056649526708102572__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 12:56:15 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBlJlr0dKeecf_y7REnkjTkipwi3TCRQDpM9GQiDroSJyLqPjigSmurHBF-75W9WAg1UB3zWlDOBkos1UFdeo7RX_UuT9Mjcnh98cyzSVR-A-L45oGXUVbPgLR4L3VtB4cAq0z4PKgtgbb0m4cBa1zaftK7mNdrqbcRV4XJNd1OqebiVoDrKHRf3pGNh1BD-jwOvmtaW4dqGOaXKPS0vsTeA0I8IE2FKTYMIEfjkSGoXH73Y57Fn8IMF4XlKexuxZoDYBuZk_Uoz3G_6hn6LhyWq_Kokzwj363r7wM-ExQYmCc8KkY9tvaFcWmAG9MdVuE&state=30026971fe8a4d676a13e1a6f99254338c3d5146df871444" for 127.0.0.1 at 2013-08-13 12:56:18 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBlJlr0dKeecf_y7REnkjTkipwi3TCRQDpM9GQiDroSJyLqPjigSmurHBF-75W9WAg1UB3zWlDOBkos1UFdeo7RX_UuT9Mjcnh98cyzSVR-A-L45oGXUVbPgLR4L3VtB4cAq0z4PKgtgbb0m4cBa1zaftK7mNdrqbcRV4XJNd1OqebiVoDrKHRf3pGNh1BD-jwOvmtaW4dqGOaXKPS0vsTeA0I8IE2FKTYMIEfjkSGoXH73Y57Fn8IMF4XlKexuxZoDYBuZk_Uoz3G_6hn6LhyWq_Kokzwj363r7wM-ExQYmCc8KkY9tvaFcWmAG9MdVuE", "state"=>"30026971fe8a4d676a13e1a6f99254338c3d5146df871444"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '100005765168375' LIMIT 1[0m
+SQLite3::SQLException: no such column: users.uid: SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '100005765168375' LIMIT 1
+Completed 500 Internal Server Error in 229ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: users.uid: SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '100005765168375' LIMIT 1):
+  app/models/user.rb:25:in `from_omniauth'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.5ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 13:01:09 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQCrptFwEWVHlWGabJSfec0wmgkfNMW7bu7ghnlyK_Dx4rkhOHFfjSrDIEY_unoJoX1jA20esuqKk4d8YGaBbitXGUd_jgdqd90Lb1y_pkOgBJnrbmjwLQE7MsDStzSI0KIPkGa1Xfp42HJl1lv4CcCW-fxSfeD8_O4nEc8faABjSfq7lOhZ-_TJOkMunEtmRPDh0Lq93v-WKuZF3AmPZjQh_3OA9NYOgZANr_2XdDafsLOgh1JQnxjpvHVFjf0jyVvLg26lg7B1oje6ZCuc-w9cayeiGAmpQgitbZyGTxAoHnFGh0OqHN-JDOLMjoMNFVg&state=5bfa65af996e76affcea6f8627b32cbe833d41750057efd6" for 127.0.0.1 at 2013-08-13 13:01:13 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQCrptFwEWVHlWGabJSfec0wmgkfNMW7bu7ghnlyK_Dx4rkhOHFfjSrDIEY_unoJoX1jA20esuqKk4d8YGaBbitXGUd_jgdqd90Lb1y_pkOgBJnrbmjwLQE7MsDStzSI0KIPkGa1Xfp42HJl1lv4CcCW-fxSfeD8_O4nEc8faABjSfq7lOhZ-_TJOkMunEtmRPDh0Lq93v-WKuZF3AmPZjQh_3OA9NYOgZANr_2XdDafsLOgh1JQnxjpvHVFjf0jyVvLg26lg7B1oje6ZCuc-w9cayeiGAmpQgitbZyGTxAoHnFGh0OqHN-JDOLMjoMNFVg", "state"=>"5bfa65af996e76affcea6f8627b32cbe833d41750057efd6"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' LIMIT 1
+Completed 500 Internal Server Error in 17ms
+
+NoMethodError (undefined method `oauth_token=' for #<User:0x007fca6cb56d08>):
+  app/models/user.rb:29:in `block in from_omniauth'
+  app/models/user.rb:25:in `tap'
+  app/models/user.rb:25:in `from_omniauth'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 13:01:58 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQDQRiwuqKGYiv2T0E9qPCnmcaek7is7vOgokiRJwfVvxepNbp8yA-2pYI8jv0IbYZv0F4lID_CKQt2_y-_OfFAzkwfNveQFofIeII04_69E4mL7IZsrx87CIzp2yVarCaIz59PoygN0OEOOmyMSAcIX5cTmK_3O_387vfIdM9GCF3em5rGqHrogB2PD_7KaTlf64pFR4RUoZI1opjvFYtnyK8b-93uypp3UGJsl1u0aXrCxCF4Y0b_NcOMTVejC7FZwsluknzR8qH0ZOrCAruTkZqcTQZzToYPvvA1bZPfsY0bpDly4oXIljTkYFlNbmWg&state=8a14514ad1f9ac67520c7a45d01047cd16ca0b09274692d2" for 127.0.0.1 at 2013-08-13 13:01:59 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQDQRiwuqKGYiv2T0E9qPCnmcaek7is7vOgokiRJwfVvxepNbp8yA-2pYI8jv0IbYZv0F4lID_CKQt2_y-_OfFAzkwfNveQFofIeII04_69E4mL7IZsrx87CIzp2yVarCaIz59PoygN0OEOOmyMSAcIX5cTmK_3O_387vfIdM9GCF3em5rGqHrogB2PD_7KaTlf64pFR4RUoZI1opjvFYtnyK8b-93uypp3UGJsl1u0aXrCxCF4Y0b_NcOMTVejC7FZwsluknzR8qH0ZOrCAruTkZqcTQZzToYPvvA1bZPfsY0bpDly4oXIljTkYFlNbmWg", "state"=>"8a14514ad1f9ac67520c7a45d01047cd16ca0b09274692d2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (100.3ms)[0m  [1mINSERT INTO "users" ("created_at", "fbid", "image", "location", "name", "oatuh_token", "oauth_expires_at", "provider", "type", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["created_at", Tue, 13 Aug 2013 20:02:06 UTC +00:00], ["fbid", nil], ["image", "http://graph.facebook.com/100005765168375/picture?type=square"], ["location", "Los Angeles, California"], ["name", "Jesus Art Torres"], ["oatuh_token", "CAABo8zOY3BIBAJoqMRSTOVi5x6fYK9IUDTqrKRJH5OdzT8wrQ1aNZB24ZBeW0TMvJCLX3XCDaKaZCaZAeSJYSg6uKD4Ufdlj0nZAMpvZCgb7j4uPmwhV4b1ZCVVspdsm6HqnrXfMt54EIlb0xTI2Sm7"], ["oauth_expires_at", Sat, 12 Oct 2013 19:39:44 UTC +00:00], ["provider", "facebook"], ["type", "listener"], ["updated_at", Tue, 13 Aug 2013 20:02:06 UTC +00:00]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/
+Completed 302 Found in 149ms (ActiveRecord: 102.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 13:02:06 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered static_pages/_homepage.html.erb (28.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (32.8ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (The single-table inheritance mechanism failed to locate the subclass: 'listener'. This error is raised because the column 'type' is reserved for storing the class in case of inheritance. Please rename this column if you didn't intend it to be used for storing the inheritance class or overwrite User.inheritance_column to use another column for that information.):
+    13: 		<div data-theme="f" data-role="content" id="homecontent">
+    14: 
+    15: 			<div id="user_nav">
+    16:   				<% if current_user %>
+    17:     				Signed in as <strong><%= current_user.name %></strong>!
+    18:     				<%= link_to "Sign out", signout_path, id: "sign_out" %>
+    19:   				<% else %>
+  app/controllers/application_controller.rb:9:in `current_user'
+  app/views/static_pages/_homepage.html.erb:16:in `_app_views_static_pages__homepage_html_erb__2535285604269435136_70253692556400'
+  app/views/static_pages/index.html.erb:4:in `_app_views_static_pages_index_html_erb___3517190801106696041_70253690859220'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130813181640)
+Migrating to Remove (20130813200949)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130813200949')
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130813181640)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130813181640)
+Migrating to RemoveTypeFromUser (20130813202149)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (18.0ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "fbid" integer, "oatuh_token" varchar(255), "oauth_expires_at" datetime, "provider" varchar(255), "location" varchar(255), "image" varchar(255), "type" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.2ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "altered_users" ("id","name","fbid","oatuh_token","oauth_expires_at","provider","location","image","type","created_at","updated_at") VALUES (1, 'Jesus Art Torres', NULL, 'CAABo8zOY3BIBAJoqMRSTOVi5x6fYK9IUDTqrKRJH5OdzT8wrQ1aNZB24ZBeW0TMvJCLX3XCDaKaZCaZAeSJYSg6uKD4Ufdlj0nZAMpvZCgb7j4uPmwhV4b1ZCVVspdsm6HqnrXfMt54EIlb0xTI2Sm7', '2013-10-12 19:39:44.000000', 'facebook', 'Los Angeles, California', 'http://graph.facebook.com/100005765168375/picture?type=square', 'listener', '2013-08-13 20:02:06.300976', '2013-08-13 20:02:06.300976')
+  [1m[36m (0.4ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "fbid" integer, "oatuh_token" varchar(255), "oauth_expires_at" datetime, "provider" varchar(255), "location" varchar(255), "image" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","name","fbid","oatuh_token","oauth_expires_at","provider","location","image","created_at","updated_at") VALUES (1, 'Jesus Art Torres', NULL, 'CAABo8zOY3BIBAJoqMRSTOVi5x6fYK9IUDTqrKRJH5OdzT8wrQ1aNZB24ZBeW0TMvJCLX3XCDaKaZCaZAeSJYSg6uKD4Ufdlj0nZAMpvZCgb7j4uPmwhV4b1ZCVVspdsm6HqnrXfMt54EIlb0xTI2Sm7', '2013-10-12 19:39:44.000000', 'facebook', 'Los Angeles, California', 'http://graph.facebook.com/100005765168375/picture?type=square', '2013-08-13 20:02:06.300976', '2013-08-13 20:02:06.300976')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130813202149')
+  [1m[36m (2.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130813181640)
+Migrating to RemoveTypeFromUser (20130813202149)
+Migrating to RemoveOatuhTokenFromUser (20130813202308)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TEMPORARY TABLE "altered_users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "fbid" integer, "oatuh_token" varchar(255), "oauth_expires_at" datetime, "provider" varchar(255), "location" varchar(255), "image" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "altered_users" ("id","name","fbid","oatuh_token","oauth_expires_at","provider","location","image","created_at","updated_at") VALUES (1, 'Jesus Art Torres', NULL, 'CAABo8zOY3BIBAJoqMRSTOVi5x6fYK9IUDTqrKRJH5OdzT8wrQ1aNZB24ZBeW0TMvJCLX3XCDaKaZCaZAeSJYSg6uKD4Ufdlj0nZAMpvZCgb7j4uPmwhV4b1ZCVVspdsm6HqnrXfMt54EIlb0xTI2Sm7', '2013-10-12 19:39:44.000000', 'facebook', 'Los Angeles, California', 'http://graph.facebook.com/100005765168375/picture?type=square', '2013-08-13 20:02:06.300976', '2013-08-13 20:02:06.300976')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "users"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "fbid" integer, "oauth_expires_at" datetime, "provider" varchar(255), "location" varchar(255), "image" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "users" ("id","name","fbid","oauth_expires_at","provider","location","image","created_at","updated_at") VALUES (1, 'Jesus Art Torres', NULL, '2013-10-12 19:39:44.000000', 'facebook', 'Los Angeles, California', 'http://graph.facebook.com/100005765168375/picture?type=square', '2013-08-13 20:02:06.300976', '2013-08-13 20:02:06.300976')
+  [1m[36m (0.2ms)[0m  [1mDROP TABLE "altered_users"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130813202308')
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.2ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130813181640)
+Migrating to RemoveTypeFromUser (20130813202149)
+Migrating to RemoveOatuhTokenFromUser (20130813202308)
+Migrating to AddOauthTokenToUser (20130813202427)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  ALTER TABLE "users" ADD "oauth_token" varchar(255)
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130813202427')[0m
+  [1m[35m (10.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 13:25:32 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBYfRpzV7pRzWDSiKLZK0eBzIglqwsL2etNdPhng-AruI_qqUqOXKRrlFMMzEOY-Ttb9fsd_sm0ClywpSSePJfgZ44rG06YDE430vC2r6xvFHxjGiJ7FdavxvYnvgvVLxwwtHX9RKHXzWC7veput_rYtQBvXHVuTTiAWn6aCP4tjyDeXenuV86OkoCLBob59OsriRiMjSFHQoMxVeSTQtdZNs5YuwHbT7iQ_VIPw5sMSnxVi3GpyfRBBvKfDw2H1AtNinfHKWzoxlopfIRrTtG3cvl-6DL2gppE8ek2P_JtbJwB9nHlWPpFxMkKjnwj4d0&state=48985a82ed7c3b2d8b361f2af3eecafc39e5b38c935efceb" for 127.0.0.1 at 2013-08-13 13:25:39 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBYfRpzV7pRzWDSiKLZK0eBzIglqwsL2etNdPhng-AruI_qqUqOXKRrlFMMzEOY-Ttb9fsd_sm0ClywpSSePJfgZ44rG06YDE430vC2r6xvFHxjGiJ7FdavxvYnvgvVLxwwtHX9RKHXzWC7veput_rYtQBvXHVuTTiAWn6aCP4tjyDeXenuV86OkoCLBob59OsriRiMjSFHQoMxVeSTQtdZNs5YuwHbT7iQ_VIPw5sMSnxVi3GpyfRBBvKfDw2H1AtNinfHKWzoxlopfIRrTtG3cvl-6DL2gppE8ek2P_JtbJwB9nHlWPpFxMkKjnwj4d0", "state"=>"48985a82ed7c3b2d8b361f2af3eecafc39e5b38c935efceb"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' AND "users"."uid" = '100005765168375' LIMIT 1
+SQLite3::SQLException: no such column: users.uid: SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '100005765168375' LIMIT 1
+Completed 500 Internal Server Error in 6ms
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: users.uid: SELECT  "users".* FROM "users"  WHERE "users"."provider" = 'facebook' AND "users"."uid" = '100005765168375' LIMIT 1):
+  app/models/user.rb:24:in `from_omniauth'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 13:26:04 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQBY0y3K7kxHAIjJ4PHKcNd3pdJU4swbVT2ory3nxErmpnM_Q3ZpIcFzhV278n7aC7gjuPk-KpZVY_NaLtnH2KxnklXFKqqKD6A5Me4QBXTVUe116Z9bGWZw9_eqJu4KqFyvVfbcVvdbXi70VEwKXW0n2xi4cuH9YSCH5aqZJvmcQ5bWkrPG_X2PDTcfYsUmyrqlQGKyszMTMFqDSz59TVyb_MuRAIpjRLgT5Ss8bg6sRrY6YwMrhZvnnu7-o1pJKVqTyEHu79GJWb0WYCHHTtUnG5W3-Y-uleA-mbCfZq647EHvOmI2hG8DNotnK1IBlbA&state=a70cf9bb695ebfca8bfc48d52f102a92fd830cebff7b596c" for 127.0.0.1 at 2013-08-13 13:26:05 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQBY0y3K7kxHAIjJ4PHKcNd3pdJU4swbVT2ory3nxErmpnM_Q3ZpIcFzhV278n7aC7gjuPk-KpZVY_NaLtnH2KxnklXFKqqKD6A5Me4QBXTVUe116Z9bGWZw9_eqJu4KqFyvVfbcVvdbXi70VEwKXW0n2xi4cuH9YSCH5aqZJvmcQ5bWkrPG_X2PDTcfYsUmyrqlQGKyszMTMFqDSz59TVyb_MuRAIpjRLgT5Ss8bg6sRrY6YwMrhZvnnu7-o1pJKVqTyEHu79GJWb0WYCHHTtUnG5W3-Y-uleA-mbCfZq647EHvOmI2hG8DNotnK1IBlbA", "state"=>"a70cf9bb695ebfca8bfc48d52f102a92fd830cebff7b596c"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' LIMIT 1[0m
+Completed 500 Internal Server Error in 16ms
+
+NoMethodError (undefined method `type=' for #<User:0x007fca6cc01de8>):
+  app/models/user.rb:32:in `block in from_omniauth'
+  app/models/user.rb:24:in `tap'
+  app/models/user.rb:24:in `from_omniauth'
+  app/controllers/sessions_controller.rb:5:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2013-08-13 13:26:22 -0700
+(facebook) Request phase initiated.
+
+
+Started GET "/auth/facebook/callback?code=AQC5eWb7ARUP7g3t6ajySpon7B2lppPU1Jqa8-olglBw-KB4yKJxek2z74epAKQKGaFoNDufiWZlzWIROMenlM2NCTgy-TYO4vA5UuaqXhpc_48TzKzWv5K4R5nF6CdYpslJ-eXK7xie1apPBIuogGX1vgtglafi8g2IYC48itfO-jTRjSCuWotDf-y7qGuFMddQs3z2eRY9JIekaPZGgiRFhXTW5TZgoz305jEN_DUqfmVVb21Ls73jv5c0yBNd9MF4LF192pQOs5PUqaD6R7Uzjv8xzyLYdqZX7zdRVd7KjvWu6Tp4ffZk-W2hPDN7-b8&state=f020b5ac3c824b232d7883e88103a567921311ffb8593497" for 127.0.0.1 at 2013-08-13 13:26:23 -0700
+(facebook) Callback phase initiated.
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"AQC5eWb7ARUP7g3t6ajySpon7B2lppPU1Jqa8-olglBw-KB4yKJxek2z74epAKQKGaFoNDufiWZlzWIROMenlM2NCTgy-TYO4vA5UuaqXhpc_48TzKzWv5K4R5nF6CdYpslJ-eXK7xie1apPBIuogGX1vgtglafi8g2IYC48itfO-jTRjSCuWotDf-y7qGuFMddQs3z2eRY9JIekaPZGgiRFhXTW5TZgoz305jEN_DUqfmVVb21Ls73jv5c0yBNd9MF4LF192pQOs5PUqaD6R7Uzjv8xzyLYdqZX7zdRVd7KjvWu6Tp4ffZk-W2hPDN7-b8", "state"=>"f020b5ac3c824b232d7883e88103a567921311ffb8593497"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'facebook' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "users" SET "oauth_token" = 'CAABo8zOY3BIBAMZC6XYojGTHoZCt7SUDAkzUE2MrBH7ZApXsSx2krU4Odv1dyLHUAtcGHn1QDZA8XODa0tZC8wGRyM9ZBIVhvIiSRRzHaGIN4vO3oVOAgZBtBjYnqnFzjssqINMTlOQ7iHxMB8bjVeA', "updated_at" = '2013-08-13 20:26:29.532138' WHERE "users"."id" = 1
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 21ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 13:26:29 -0700
+Processing by StaticPagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered static_pages/_homepage.html.erb (3.0ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 626ms (Views: 625.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/cart.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /cart.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jplayer.pink.flag.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jplayer.pink.flag.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/playlist.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /playlist.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tuneclout-discovery.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tuneclout-discovery.css" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (49ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /bootstrap.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /facebook.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jplayer/add-on/jplayer.playlist.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jplayer/add-on/jplayer.playlist.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jplayer/add-on/jquery.jplayer.inspector.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jplayer/add-on/jquery.jplayer.inspector.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jplayer/popcorn/popcorn.jplayer.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jplayer/popcorn/popcorn.jplayer.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom.min.js - 304 Not Modified (42ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jshint.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jshint.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/qunit.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/qunit.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:30 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-1.9.1.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /application.js - 304 Not Modified (82ms)
+
+
+Started GET "/assets/facebook.js" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /facebook.js - 304 Not Modified (57ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/homePSD_05.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /homePSD_05.png - 304 Not Modified (26ms)
+
+
+Started GET "/assets/homePSD_02.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /homePSD_02.png - 304 Not Modified (14ms)
+
+
+Started GET "/assets/homePSD_01.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /homePSD_01.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/homePSD_06.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /homePSD_06.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/homePSD_07.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /homePSD_07.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/homePSD_04.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /homePSD_04.png - 304 Not Modified (32ms)
+
+
+Started GET "/assets/product-thumb.jpg" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /product-thumb.jpg - 304 Not Modified (31ms)
+
+
+Started GET "/assets/photos.jpg" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /photos.jpg - 304 Not Modified (11ms)
+
+
+Started GET "/assets/photos2.jpg" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /photos2.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/photos3.jpg" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /photos3.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/like.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /like.png - 304 Not Modified (13ms)
+
+
+Started GET "/assets/dislike.png" for 127.0.0.1 at 2013-08-13 13:26:31 -0700
+Served asset /dislike.png - 304 Not Modified (2ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/_homepage.html.erb (0.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 59ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/homePSD_01.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /homePSD_01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_04.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /homePSD_04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_05.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /homePSD_05.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_06.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /homePSD_06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_02.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /homePSD_02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_07.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /homePSD_07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/product-thumb.jpg" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /product-thumb.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.jpg" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /photos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos2.jpg" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /photos2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos3.jpg" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /photos3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/like.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /like.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dislike.png" for 127.0.0.1 at 2013-08-13 13:26:40 -0700
+Served asset /dislike.png - 304 Not Modified (0ms)
+
+
+Started GET "/signout" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Processing by StaticPagesController#index as HTML
+  Rendered static_pages/_homepage.html.erb (0.1ms)
+  Rendered static_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer.pink.flag.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jplayer.pink.flag.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cart.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /cart.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/playlist.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /playlist.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuneclout-discovery.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tuneclout-discovery.css" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /tuneclout-discovery.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/add-on/jplayer.playlist.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jplayer/add-on/jplayer.playlist.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/add-on/jquery.jplayer.inspector.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jplayer/add-on/jquery.jplayer.inspector.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jplayer/popcorn/popcorn.jplayer.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jplayer/popcorn/popcorn.jplayer.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/Gruntfile.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.de-DE.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.culture.ja-JP.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jquery.mousewheel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/globalize.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/globalize.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/qunit.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/qunit.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/external/jshint.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/external/jshint.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery-ui.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.core.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:43 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.mouse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.position.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery-ui.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.core.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/jquery.ui.widget.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.mouse.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.position.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.tabs.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/development-bundle/ui/minified/jquery.ui.widget.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-1.9.1.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jplayer/jquery.jplayer.min.js" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /jplayer/jquery.jplayer.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/facebook.js" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /facebook.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_01.png" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /homePSD_01.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_02.png" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /homePSD_02.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_04.png" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /homePSD_04.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_07.png" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /homePSD_07.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_05.png" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /homePSD_05.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homePSD_06.png" for 127.0.0.1 at 2013-08-13 13:26:44 -0700
+Served asset /homePSD_06.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/product-thumb.jpg" for 127.0.0.1 at 2013-08-13 13:26:45 -0700
+Served asset /product-thumb.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos.jpg" for 127.0.0.1 at 2013-08-13 13:26:45 -0700
+Served asset /photos.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos2.jpg" for 127.0.0.1 at 2013-08-13 13:26:45 -0700
+Served asset /photos2.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/photos3.jpg" for 127.0.0.1 at 2013-08-13 13:26:45 -0700
+Served asset /photos3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/like.png" for 127.0.0.1 at 2013-08-13 13:26:45 -0700
+Served asset /like.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dislike.png" for 127.0.0.1 at 2013-08-13 13:26:45 -0700
+Served asset /dislike.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
