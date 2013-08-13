@@ -5,8 +5,23 @@
 		letter-spacing: -2px;
 		margin-bottom: 30px;
 		text-align: center;
-		background-color: #fff;
+		min-width: 600px;
 	}
+}
+
+#homecontent {
+	text-align: center;
+	margin-top: 150px;
+}
+
+#home-footer {
+	text-align: center;
+	min-width: 600px;
+}
+
+.home-navbar {
+	text-align: center;
+	min-width: 600px;
 }
 
 .mybutton {
