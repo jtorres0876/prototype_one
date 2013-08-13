@@ -19,11 +19,6 @@
 	font-family: 'Droid Sans', sans-serif;
 }
 
-.mybutton1 {
-	background-image: url("/assets/homePSD_04.png");
-	
-}
-
 .ui-icon-tc_note {
 	background-image: url( "/assets/music_gray.png");
 	background-size: 18px 18px;	
@@ -78,7 +73,7 @@
 	box-shadow:none;
 	border:none;
 	text-shadow:none;
-	}
+}
 	
 .ui-btn-hover-c {
 	color:#ffffff !important;
@@ -94,8 +89,7 @@
 .nav-search .ui-btn-up-a {
 	background:none !important;
 	text-shadow:none;
-	border:0;
-	
+	border:0;	
 }
 
 .ui-btn-up-a {
@@ -145,7 +139,6 @@
 	padding-left:10px;
 }
 
-
 .ui-btn-up-c {
 	background:none;
 	text-shadow:none;
@@ -172,13 +165,11 @@
 	font-size:10px;
 }
 
-
 .tc-sub-menu {
 	font-size: 10px !important;
 	font-weight:100;
 	background-image:none !important;
 }
-
 
 
 .tc-nav-home, .tc-nav-menu {
@@ -187,8 +178,7 @@
 		background-color:#2b2b2b;
 		border-radius: 0;
 		background-repeat:no-repeat;
-		background-color:transparent !important;
-		
+		background-color:transparent !important;		
 }
 
 .tc-nav-home {
@@ -201,7 +191,6 @@
 	background-image: url("/assets/navigation-bar.png");
 	padding-top:15px;
 }
-
 
 .tc-discover-title {
 	font-size:18px;
@@ -238,7 +227,6 @@
 	padding:0px !important;
 	margin: 0 auto;
 	max-width: 320px;
-	
 }
 
 .tc-search {
@@ -260,9 +248,11 @@ article.tc-discover-body {
 	background: url(/assets/albumcover.jpg);
 	background-size:350px 350px;
 }
+
 article.tc-discover-body:after {
 	clear:both;
 }
+
 article.tc-discover-body header, article.tc-discover-body header a {
 	padding:10px 10px;
 	color:#7accc8;
@@ -271,27 +261,32 @@ article.tc-discover-body header, article.tc-discover-body header a {
 	border-top:1px solid #666;
 	border-bottom:1px solid #2b2b2b;
 }
+
 article.tc-discover-body a {
 	color:white;
 	text-decoration:none;
 }
+
 article.tc-discover-body ul {
 	margin:0px;
 	padding:0px;
-	
 	list-style-type:none;
 	background:url(/assets/trancparency1x1.png);
 }
+
 .tc-event-row:before, article.tc-discover-body ul li:before, .tc-event-row:after, article.tc-discover-body ul li:after {
 	content:"";
 	display:block;
 }
+
 .tc-event-row:after, article.tc-discover-body ul li:after {
 	clear:both;
 }
+
 article.tc-discover-body ul li:last-child {
 	border:none;
 }
+
 article.tc-discover-body ul li {
 	padding:5px 0px 4px 5px;
 	background:url(/assets/arrow-list.png);
@@ -299,19 +294,22 @@ article.tc-discover-body ul li {
 	background-repeat:no-repeat;
 	border-bottom:1px solid #666;
 }
+
 article.tc-discover-body ul li a {
 	display:block !important;
 	color: #ffffff !important;
 	font-weight:normal !important;
 }
+
 /*Two main columns */
 .tc-product-thumb, .tc-event-list {
-	float:left;
-	
+	float:left;	
 }
+
 .tc-product-thumb{
 	width:25%;
 }
+
 .tc-product-thumb img{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -322,27 +320,33 @@ article.tc-discover-body ul li a {
 	margin-right:10px;
 	margin-left: 5px;
 }
+
 .tc-event-list {
 	width:75%;
 }
+
 .tc-event-row {
 	padding-right:25px;
 	padding-left:10px;
 }
+
 .tc-city, .tc-date {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
 .tc-event-text {
 }
+
 .copy p:last-child {
 }
+
 .copy p {
 	padding:0px;
 	margin:5px 0px 10px 5px;
-	
 }
+
 .tc-event-photos img {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -351,13 +355,15 @@ article.tc-discover-body ul li a {
 	width:85px;
 	margin:3px 5px 5px 10px;
 }
+
 .tc-city {
-	float:left;
-	
+	float:left;	
 }
+
 .tc-date {
 	float:right;
 }
+
 .clearall {
 	clear:both;
 }
@@ -408,6 +414,7 @@ article.tc-discover-body ul li a {
 	margin-top:-20px;
 	display:none;
 }
+
 .tc-anim-like img, .tc-anim-dislike img {
 	width:100%;
 }
@@ -420,8 +427,7 @@ article.tc-discover-body ul li a {
 	position:relative;
 	top:1px;
 	background:#2b2b2b;
-	max-width: 320px;
-	
+	max-width: 320px;	
 }
 
 /* Player Controls */
@@ -510,6 +516,7 @@ ul.tc-actions-nav-bar li{
 	font-size:11px;
 	text-align:center;
 }
+
 .tc-currentTime span{
 	padding-left:8px;	
 }
@@ -530,6 +537,7 @@ ul.tc-actions-nav-bar li{
 	overflow:hidden;
 	cursor:pointer;
 }
+
 .tc-time-played{
 	background:#82CBC6;
 	width:0px;
@@ -542,22 +550,10 @@ ul.tc-actions-nav-bar li{
 	width:15%;
 	color:#ccc;
 	font-size:11px;
-	text-align:center;
-	
+	text-align:center;	
 }
+
 .tc-displaytime span{
 	padding-left:8px;	
 }
 
-.home-footer {
-	text-align: center;
-	background-color: #fff;	
-	
-}
-
-.home-navbar {	
-	text-align: center;
-}
-.home-navbar img{	
-	
-}
