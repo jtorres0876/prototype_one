@@ -1,8 +1,5 @@
 Prototype::Application.routes.draw do
   root to: 'static_pages#index'
-  get "static_pages/player"
-  get "static_pages/discovery"
-  get "static_pages/homepage"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
