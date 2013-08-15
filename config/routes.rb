@@ -1,6 +1,9 @@
 Prototype::Application.routes.draw do
+  
+
   resources :users
-  resources :sessions, only: [:new, :create, :destroy]
+  resources :shares,    only: [:new, :create, :index]
+  resources :sessions,  only: [:new, :create, :destroy]
 
   root to: 'static_pages#index'
 
@@ -9,7 +12,6 @@ Prototype::Application.routes.draw do
   match 'signout', to: 'sessions#destroy', as: 'signout'
   match 'discover', to: 'static_pages#discover'
   match 'cart', to: 'static_pages#cart'
-  match 'share', to: 'static_pages#share'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -47,7 +47,7 @@
         }    
     });<!-- end jplayer -->
 
-      $("#save").popup({
+        $("#save").popup({
             popupbeforeposition: function() {
                 var w = $( window ).width();
 
@@ -62,7 +62,7 @@
             }
         });<!-- end buy popup -->
 
-         window.fbAsyncInit = function() {
+  window.fbAsyncInit = function() {
     // init the FB JS SDK
     FB.init({
       appId      : '115393751997458',               // App ID from the app dashboard
@@ -94,7 +94,8 @@
 
   }; //window async
   
-  
+
+  }
   // Load the SDK asynchronously
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
@@ -112,7 +113,7 @@
     <![endif]-->
 </head>
 <body>
-	
+	  <div id="fb-root"></div> 
 		<div class="container">
 			<% flash.each do |key, value| %>
 	        	<%= content_tag(:div, value, class: "alert alert-#{key}") %>
