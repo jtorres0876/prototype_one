@@ -15,13 +15,13 @@ ActiveRecord::Schema.define(:version => 20130816211330) do
 
   create_table "users", :force => true do |t|
     t.string   "name"
-    t.integer  "fbid"
+    t.integer  "fbid",             :limit => 8
     t.datetime "oauth_expires_at"
     t.string   "provider"
     t.string   "location"
     t.string   "image"
-    t.datetime "created_at",       :null => false
-    t.datetime "updated_at",       :null => false
+    t.datetime "created_at",                    :null => false
+    t.datetime "updated_at",                    :null => false
     t.string   "oauth_token"
   end
 
