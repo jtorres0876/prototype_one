@@ -1,0 +1,139 @@
+
+ <!-- Page: Cart -->
+ <div id="cart" data-role="page" class="ui-responsive-panel">
+	<!-- header -->
+	<div data-role="header" data-theme="f" data-position="fixed" class="tc-header">
+    	<!-- Track and Artist Name -->
+		<div class="tc-discover-title">Discover</div>
+		<div class="tc-header-song-title">Closer by Eddie Gomez</div>
+        <!-- Header Menu Icons -->
+		<a href="/" data-iconpos="notext" class="ui-btn-left tc-nav-home" rel="external">Home</a>
+        <a href="#" data-iconpos="notext" class="ui-btn-right tc-nav-menu" >Under Construction</a>
+	</div><!-- end header -->
+    
+    <!-- Content -->
+	<div data-role="content">		
+		<article class="tc-discover-body tc-discover-cart">
+		  <!-- New Section -->
+		  
+
+		<!-- New Section -->
+		   <div class="tc-cart-row">
+		  	<div class="tc-cart-cart-half-l"><header>Share Cart</header></div>
+		    <div class="tc-cart-cart-half-r"><header>2 items</header></div>
+		  </div>
+		  <ul>
+		  	<li>
+		     <div class="tc-cart-row product">
+		      <div class="tc-cart-cart-threequarter-one"><a id="expand" href="">Closer</a>
+		          <p>Eddie Gomez</p>
+		        </div>
+		        <div class="tc-cart-cart-threequarter-two">&nbsp;</div>
+		        <div class="tc-cart-cart-threequarter-three">$0.00</div>
+		      </div>
+		      <div class="tc-cart-later-row">
+		      	<a class="cart-later-btn" href="#">Delete</a>
+		        <a class="cart-later-btn" href="#">Move to Buy Cart</a>
+		        <a class="cart-later-btn" href="#">Later</a>
+		      </div>
+		    </li>
+		    
+		    <li>
+		      <div class="tc-cart-row subtotal">
+		      <div class="tc-cart-cart-half-l"><a href="shares/new" rel="external"><img src="/assets/facebook_share_icon.png" height="24px" alt="Purchase Now" /></a></div>
+		        <div class="tc-cart-cart-half-r">Subtotal: $0.00</div>
+		      </div>
+		    </li>
+		  </ul>
+
+		  <div class="tc-cart-row">
+		  	<div class="tc-cart-cart-half-l"><header>Buy Cart</header></div>
+		    <div class="tc-cart-cart-half-r"><header>2 items</header></div>
+		  </div>
+		  <ul>
+		    <li>
+		      <div class="tc-cart-row product">
+		      	<div class="tc-cart-cart-threequarter-one">Eddie Gomez Show Tickets
+		          <p>Eddie Gomez</p>
+		        </div>
+		        <div class="tc-cart-cart-threequarter-two">2 Qty</div>
+		        <div class="tc-cart-cart-threequarter-three">$29.99</div>
+		      </div>
+		      <div class="tc-cart-later-row">
+		      	<a class="cart-later-btn" href="#">Delete</a>
+		        <a class="cart-later-btn" href="#">Later</a>
+		      </div>
+		    </li>
+		    <li>
+		      <div class="tc-cart-row subtotal">
+		      <div class="tc-cart-cart-half-l"><a href="#"><img src="/assets/paypal-checkout.png" height="24px" alt="Purchase Now" /></a></div>
+		        <div class="tc-cart-cart-half-r">Subtotal: $59.99</div>
+		      </div>
+		    </li>
+		   </ul>
+		  <!-- New Section -->
+		  <div class="tc-cart-row">
+		  	<div class="tc-cart-cart-half-l"><header>Saved for later</header></div>
+		    <div class="tc-cart-cart-half-r"><header>0 items</header></div>
+		  </div>
+		  <ul>
+		    <li>
+		      
+		    </li>
+		  </ul>
+		 
+		<div class="clearall"></div>	 
+		</article>
+		</div>
+		<!-- End Content -->
+		
+		<!--Footer-->
+	
+		<div data-role="footer" data-position="fixed">
+	        <div id="tc-player-footer">
+	        	<div class="tc-track-playing-actions">
+			    	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+					    <ul>
+					     	<li id="prev"class="tc-prev-track" ></li>
+					        <li id="play" class="tc-play"></li>
+					        <li id="pause" class="tc-pause"></li>
+					        <li id="next"class="tc-next-track" ></li>
+					     </ul>
+			       	<div class="clearall"></div>	
+			    </div><!--end track playing actions -->
+	          	<div class="clearall"></div>
+	          	
+	          	<!-- Track Actions -->
+	          	<div class="tc-track-actions">
+	            	<ul class="tc-actions-nav-bar">
+	              		<li class="tc-save active" ng-click="signInPopupShow()" id="tc-anim-like">Like<div class="tc-anim-like"><img src="/assets/like.png" /></div></li>
+	              		<li class="tc-share" ng-click="signInPopupShow()" id="tc-anim-dislike">Dislike<div class="tc-anim-dislike"><img src="/assets/dislike.png" /></div></li>
+	              		<li class="tc-dislike" ng-click="signInPopupShow()">
+	                		<a href="#save" data-rel="popup" data-transition="slideup" data-position-to="origin" >Save</a>
+	              		</li>
+	              		<li class="tc-buy" ng-click="signInPopupShow()">
+	                		<a href="#buy" data-rel="popup" data-transition="slideup" data-position-to="origin" >Buy</a>
+	              		</li>
+	            	</ul>
+	          		<div class="clearall"></div>
+	          	</div><!--end Track Actions row -->
+	          
+	   
+	          	<!-- Time Counter -->
+	          	<div class="tc-player-row">
+	          		<div id="currentTime" class="tc-currentTime"><span></span></div>
+	            	<div class="tc-time-bar">
+	            		<div id="seek" class="tc-seek-bar">
+	                    	<div id="playBar" class="tc-time-played"></div>
+	            		</div>
+	            	</div>
+	            	<div id="duration" class="tc-displaytime"><span></span></div>
+	          	</div><!--end Time Counter row -->
+	    	</div> <!--end TC Player Footer -->
+		</div><!--END FOOTER -->
+		
+		
+
+</div><!-- home page -->
+
+

@@ -1,0 +1,76 @@
+<!-- Page: Share -->
+ <div id="share" data-role="page" class="ui-responsive-panel">
+	<!-- header -->
+	<div data-role="header" data-theme="f" data-position="fixed" class="tc-header">
+    	<!-- Track and Artist Name -->
+		<div class="tc-discover-title">Discover</div>
+		<div class="tc-header-song-title">Closer by Eddie Gomez</div>
+        <!-- Header Menu Icons -->
+		<a href="/" data-iconpos="notext" class="ui-btn-left tc-nav-home" rel="external">Home</a>
+        <a href="#" data-iconpos="notext" class="ui-btn-right tc-nav-menu" >Under Construction</a>
+	</div><!-- end header -->
+    
+    <!-- Content -->
+	<div data-role="content">		
+		<p>This is the ctent</p>
+		<div class="share-content">
+			<%= form_tag(shares_path, method: 'post' ) do %>
+				<table class="table">
+				<% @friends.each do |f| %>
+					<tr>
+						<td><%= image_tag(@user.facebook.get_picture(f['id'])) %></td>
+						<td><%= f['name'] %></td>
+						<td><%= check_box_tag("friend_ids[]", f['id'] ) %></td>		
+					</tr>	
+				<% end %>
+				</table>
+				<div><%= submit_tag 'Share' , class: "btn btn-large btn-primary" %></div>
+			<% end %>
+		</div>
+
+	</div><!-- End Content -->	
+	<!--Footer-->
+	<div data-role="footer" data-position="fixed">
+		<div id="tc-player-footer">
+	        <div class="tc-track-playing-actions">
+				<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+				<ul>
+					<li id="prev"class="tc-prev-track" ></li>
+					<li id="play" class="tc-play"></li>
+					<li id="pause" class="tc-pause"></li>
+					<li id="next"class="tc-next-track" ></li>
+				</ul>
+			    <div class="clearall"></div>	
+			</div><!--end track playing actions -->
+
+	        <div class="clearall"></div>
+	          	
+	        <!-- Track Actions -->
+	        <div class="tc-track-actions">
+	            <ul class="tc-actions-nav-bar">
+	              	<li class="tc-save active" ng-click="signInPopupShow()" id="tc-anim-like">Like<div class="tc-anim-like"><img src="/assets/like.png" /></div></li>
+	              	<li class="tc-share" ng-click="signInPopupShow()" id="tc-anim-dislike">Dislike<div class="tc-anim-dislike"><img src="/assets/dislike.png" /></div></li>
+	              	<li class="tc-dislike" ng-click="signInPopupShow()">
+	                	<a href="#save" data-rel="popup" data-transition="slideup" data-position-to="origin" >Save</a>
+	              	</li>
+	              	<li class="tc-buy" ng-click="signInPopupShow()">
+	                	<a href="#buy" data-rel="popup" data-transition="slideup" data-position-to="origin" >Buy</a>
+	              	</li>
+	            </ul>
+	          	<div class="clearall"></div>
+	     	</div><!--end Track Actions row -->
+	          
+	   
+	        <!-- Time Counter -->
+	        <div class="tc-player-row">
+	          	<div id="currentTime" class="tc-currentTime"><span></span></div>
+	            <div class="tc-time-bar">
+	            	<div id="seek" class="tc-seek-bar">
+	                    <div id="playBar" class="tc-time-played"></div>
+	            	</div>
+	            </div>
+	            <div id="duration" class="tc-displaytime"><span></span></div>
+	        </div><!--end Time Counter row -->
+		</div> <!--end TC Player Footer -->
+	</div><!--end footer -->
+</div><!-- share page -->
