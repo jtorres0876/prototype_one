@@ -111,7 +111,7 @@ a.cart-later-btn{
 }
 
 a#expand{
-	background:url("images/arrow-expand.png") no-repeat;
+	background:url("/assets/arrow-expand.png") no-repeat;
 	background-position:0px 2px;
 	width:12px;
 	height:14px;
