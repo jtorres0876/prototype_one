@@ -13,7 +13,7 @@ class SharesController < ApplicationController
 		@share_list = params[:friend_ids]
 		@friends_with_app = []
 		@friends_without_app = []
-		redirect_to cart_path
+		redirect_to discover_path
   	end
 
 end
