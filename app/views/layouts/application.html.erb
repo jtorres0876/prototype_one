@@ -54,7 +54,6 @@
         $("#save").popup({
             popupbeforeposition: function() {
                 var w = $( window ).width();
-
                 $( "#save" ).css( "width", w );
             }
         }); <!-- end save popup -->
@@ -69,8 +68,9 @@
     window.fbAsyncInit = function() {
       // init the FB JS SDK
       FB.init({
-        appId      : '115393751997458',               // App ID from the app dashboard
-        channelUrl : 'channel.html',                  // Channel file for x-domain comms
+        //appId      : '115393751997458',               // App ID from the app dashboard
+        appId      : '681469378534074'
+        channelUrl : '/channel.html',                  // Channel file for x-domain comms
         status     : true,                            // Check Facebook Login status
         frictionlessRequests : true,                  // enable frictionless requests
         xfbml      : true                             // Look for social plugins on the page
