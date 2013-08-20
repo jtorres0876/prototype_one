@@ -1,6 +1,7 @@
 
 
 function postToFeed() {
+  alert("this is a posttofeed alert");
   FB.ui(
     {
       method: 'feed',
