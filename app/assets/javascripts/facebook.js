@@ -1,7 +1,7 @@
 
 
 function postToFeed() {
-  alert("this is a posttofeed alert");
+  alert("start of posttofeed alert");
   FB.ui(
     {
       method: 'feed',
@@ -19,6 +19,7 @@ function postToFeed() {
       }
     }
   )// Call to FB.ui
+  alert("end of posttofeed alert");
 } // postToFeed
 
 function messageToFriend(myText) {
