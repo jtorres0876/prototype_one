@@ -19,9 +19,22 @@ function postToFeed() {
       }
     }
   )// Call to FB.ui
-  alert("end of posttofeed alert");
 } // postToFeed
 
+function requestToFriends(friendId) {
+  alert("this is request to friends");
+  FB.ui({
+    method: 'apprequests',
+    to:     friendId,
+    title: 'My Great Invite',
+    message: 'Check out this Awesome App!',
+  }, callback);// Call to FB.ui
+}// messageToFriend
+
+function callback(response) {
+   alert('response');
+}
+ 
 function messageToFriend(myText) {
   FB.ui({
     'method': 'send',
@@ -36,10 +49,7 @@ function messageToFriend(myText) {
   }); // Call to FB.ui
 } // messageToFriend
 
-function requestToFriends() {
-  alert("this is right");
-  alert("this is wrong");
-} // messageToFriend
+
 
 
 

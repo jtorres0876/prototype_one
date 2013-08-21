@@ -7,6 +7,7 @@ class SharesController < ApplicationController
 	def new
 		@user = current_user
     	@friends = @user.facebook.get_connection("me", "friends")
+    	@friendIds = [100005817697208, 100006038289344]
 	end
 
 	def create	
