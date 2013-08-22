@@ -12,21 +12,13 @@
     
     <!-- Content -->
 	<div data-role="content">		
-		<p>This is the ctent</p>
-		<div class="share-content">
-			<%= form_tag(shares_path, method: 'post' ) do %>
-				<table class="table">
-				<% @friends.each do |f| %>
-					<tr>
-						<td><%= image_tag(@user.facebook.get_picture(f['id'])) %></td>
-						<td><%= f['name'] %></td>
-						<td><%= check_box_tag("friend_ids[]", f['id'] ) %></td>		
-					</tr>	
-				<% end %>
-				</table>
-				<div><%= submit_tag 'Share' , class: "btn btn-large btn-primary" %></div>
-			<% end %>
-		</div>
+		<% @share_list.each do |f| %>
+		 	<div>
+		 		<p> <%= f %></P>
+		 		<p> <%= f.class %></P>
+		 	</div>
+		<% end %>  
+		<p> <%= @share_list.class %></P>
 
 	</div><!-- End Content -->	
 	<!--Footer-->

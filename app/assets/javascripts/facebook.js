@@ -21,18 +21,18 @@ function postToFeed() {
   )// Call to FB.ui
 } // postToFeed
 
-function requestToFriends(friendId) {
+function requestToFriends(friends) {
   alert("this is request to friends");
   FB.ui({
     method: 'apprequests',
-    to:     friendId,
     title: 'My Great Invite',
+    to:    friends, 
     message: 'Check out this Awesome App!',
-  }, callback);// Call to FB.ui
+  });// Call to FB.ui
 }// messageToFriend
 
-function callback(response) {
-   alert('response');
+function callback() {
+   alert('hello');
 }
  
 function messageToFriend(myText) {

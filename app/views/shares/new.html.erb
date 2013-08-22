@@ -20,7 +20,7 @@
 		</div>
 
 		<div class="share-content">
-			<%= form_tag(shares_path, method: 'post' ) do %>
+			<%= form_tag(shares_path, method: 'post', remote: true) do %>
 				<table class="table">
 				<% @friends.each do |f| %>
 					<tr>
@@ -30,7 +30,7 @@
 					</tr>	
 				<% end %>
 				</table>
-				<div><%= submit_tag 'Share' , class: "btn btn-large btn-primary" %></div>
+				<div id="share-button"><%= submit_tag 'Share' , class: "btn btn-large btn-primary" %></div>
 			<% end %>
 		</div>
 
