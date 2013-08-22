@@ -24,9 +24,11 @@
 				<table class="table">
 				<% @friends.each do |f| %>
 					<tr>
-						<td><%= image_tag(@user.facebook.get_picture(f['id'])) %></td>
+						<td><%= image_tag(f['picture']['data']['url'])  %></td>
 						<td><%= f['name'] %></td>
-						<td><%= check_box_tag("friend_ids[]", f['id'] ) %></td>		
+						<td><% f['installed'] %></td>
+						<td><%= check_box_tag("friend_ids[]", f['id']) %></td>	
+						<!-- <td><%= check_box_tag "friend_ids[#{f['id']}][installed][]", f['installed'] %></td>-->			
 					</tr>	
 				<% end %>
 				</table>

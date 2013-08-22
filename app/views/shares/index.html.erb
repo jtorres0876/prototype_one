@@ -11,14 +11,29 @@
 	</div><!-- end header -->
     
     <!-- Content -->
-	<div data-role="content">		
-		<% @share_list.each do |f| %>
-		 	<div>
-		 		<p> <%= f %></P>
-		 		<p> <%= f.class %></P>
-		 	</div>
-		<% end %>  
-		<p> <%= @share_list.class %></P>
+	<div data-role="content">
+		<p> <%= 'this is share' %></p>
+		<% @share_list.each do |s| %>
+			<p> <%= s %></p>
+		<% end %>	
+
+		<p> <%= 'this is friend' %></p>
+		<p> <%= @friend['id'] %></p>
+		<p> <%= @friend.inspect %></p>
+		<p> <%= @friend['installed'].blank? %></p>
+
+		<p> <%= 'this is withoutapp' %></p>
+
+		<% @friendswithoutapp.each do |s| %>
+			<p> <%= s %></p>
+		<% end %>
+
+		<p> <%= 'this is withapp' %></p>
+
+		<% @friendswithapp.each do |s| %>
+			<p> <%= s %></p>
+		<% end %>
+		
 
 	</div><!-- End Content -->	
 	<!--Footer-->
