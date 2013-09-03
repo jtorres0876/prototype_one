@@ -25,7 +25,9 @@
     $(document).ready(function(){
 
       <!-- Start of player controls -->
+      
       var tracks = <%= raw @tracks.to_json %>;
+
       if (typeof i == 'undefined') {
         var i = 0;
       }
@@ -37,6 +39,7 @@
           i += 1;
         }
         alert(i);
+        alert(tracks[i].url);
         nextsong(tracks[i].url);
       });
 
