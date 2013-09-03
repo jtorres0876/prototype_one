@@ -26,7 +26,7 @@
 
       <!-- Start of player controls -->
       var tracks = <%= raw @tracks.to_json %>;
-      if (typeof i === 'undefined') {
+      if (typeof i == 'undefined') {
         var i = 0;
       }
 
@@ -36,6 +36,7 @@
         } else {
           i += 1;
         }
+        alert(i);
         nextsong(tracks[i].url);
       });
 
