@@ -25,9 +25,9 @@
     $(document).ready(function(){
 
       <!-- Start of player controls -->
-      
-      var tracks = <%= raw @tracks.to_json %>;
 
+      var tracks = <%= raw @tracks.to_json %>;
+      alert(tracks);
       if (typeof i == 'undefined') {
         var i = 0;
       }
