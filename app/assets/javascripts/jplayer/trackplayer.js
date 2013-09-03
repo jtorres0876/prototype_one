@@ -1,5 +1,4 @@
 
-
 function nextsong(track) {
   $("#jquery_jplayer_1").jPlayer("stop");  
   $("#jquery_jplayer_1").jPlayer( "clearMedia" ); 
