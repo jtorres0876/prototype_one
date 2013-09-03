@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require facebook
+//= require ./jplayer/trackplayer
 //= require_tree ./jplayer
 
 

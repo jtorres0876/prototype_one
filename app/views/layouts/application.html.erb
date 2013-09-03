@@ -19,34 +19,12 @@
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
   <script type="text/javascript" src="/assets/facebook.js" ></script> 
   <script type="text/javascript" src="/assets/jplayer/jquery.jplayer.min.js"></script> 
-  <script type="text/javascript" src="/assets/jplayer/add-on/jplayer.playlist.min.js"></script>
   <script type="text/javascript" src="/assets/jplayer/trackplayer.js" ></script> 
 
   <script type="text/javascript">
     $(document).ready(function(){
 
-      $("#jquery_jplayer_1").jPlayer({
-        ready: function () {
-          $(this).jPlayer("setMedia", {
-            mp3: "https://s3.amazonaws.com/cloutmvpmp3/allineed.mp3"
-          });
-        },
-        swfPath: "/js",
-        supplied: "mp3",
-        cssSelectorAncestor: "",
-        cssSelector: {
-          play: "#play",
-          pause: "#pause",
-          stop: "#stop",
-          mute: "#mute",
-          unmute: "#unmute",
-          currentTime: "#currentTime",
-          duration: "#duration",
-          seekBar:"#seek",
-          playBar:"#playBar"
-        }    
-      });<!-- end jplayer -->
-
+      <!-- Start of player controls -->
       var tracks = <%= raw @tracks.to_json %>;
       if (typeof i === 'undefined') {
         var i = 0;
@@ -70,7 +48,34 @@
         prevsong(tracks[i].url);
       });
 
-        
+      $("#jquery_jplayer_1").jPlayer({
+        ready: function () {
+          $(this).jPlayer("setMedia", {
+            mp3: "https://s3.amazonaws.com/cloutmvpmp3/allineed.mp3"
+          });
+        },
+        ended: function() {
+          if (i == (tracks.length - 1)) {
+            i = 0;
+          } else {
+            i += 1;
+          }
+          nextsong(tracks[i].url);  
+        },
+        swfPath: "/js",
+        supplied: "mp3",
+        cssSelectorAncestor: "",
+        cssSelector: {
+          play: "#play",
+          pause: "#pause",
+          currentTime: "#currentTime",
+          duration: "#duration",
+          seekBar:"#seek",
+          playBar:"#playBar"
+        }    
+      });<!-- End of player controls -->
+
+       
     });<!-- end doc ready -->
 
   </script>
