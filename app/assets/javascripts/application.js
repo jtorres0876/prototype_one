@@ -11,7 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-
+//= require jquery_ujs
 //= require facebook
 //= require jplayer/jquery.jplayer.min
 //= require jplayer/trackplayer
