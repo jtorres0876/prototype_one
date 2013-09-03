@@ -9,19 +9,17 @@
   <%= javascript_include_tag "application.js" %>
   <%= csrf_meta_tags %>
 
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet"  href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  <link type="text/css" href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' >
+  <link type="text/css" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" rel="stylesheet"  >
   <link type="text/css" href="/assets/discovery.css" rel="stylesheet" >
   <link type="text/css" href="/assets/cart.css" rel="stylesheet" >
 
   
-
-  <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-  
-  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
-  <!--<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> -->
-  <script type="text/javascript" src="/assets/jplayer/jquery.jplayer.min.js"></script>
-  <script type="text/javascript" src="/assets/facebook.js" ></script>   
+  <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script> 
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+  <script type="text/javascript" src="/assets/jplayer/jquery.jplayer.min.js"></script> 
+  <script type="text/javascript" src="/assets/jplayer/add-on/jplayer.playlist.min.js"></script>
+  <script type="text/javascript" src="/assets/facebook.js" ></script> 
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -29,12 +27,11 @@
       $("#jquery_jplayer_1").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            m4a: "http://www.jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
-            oga: "http://www.jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
+            mp3: "https://s3.amazonaws.com/cloutmvpmp3/allineed.mp3"
           });
         },
         swfPath: "/js",
-        supplied: "m4a, oga",
+        supplied: "mp3",
         cssSelectorAncestor: "",
         cssSelector: {
           play: "#play",
@@ -44,25 +41,35 @@
           unmute: "#unmute",
           currentTime: "#currentTime",
           duration: "#duration",
-          seekBar: "#seek",
-          playBar: "#playBar"
+          seekBar:"#seek",
+          playBar:"#playBar"
         }    
       });<!-- end jplayer -->
 
-      $("#save").popup({
-          popupbeforeposition: function() {
-            var w = $( window ).width();
-            $( "#save" ).css( "width", w );
-          }
-        }); <!-- end save popup -->
+      var tracks = <%= raw @tracks.to_json %>;
+      if (typeof i === 'undefined') {
+        var i = 0;
+      }
 
-        $("#buy").popup({
-            popupbeforeposition: function() {
-              var w = $( window ).width();
-              $( "#buy" ).css( "width", w );
-            }
-        });<!-- end buy popup -->
+      $("#next").click(function(){
+        if (i == (tracks.length - 1)) {
+          i = 0;
+        } else {
+          i += 1;
+        }
+        nextsong(tracks[i].url);
+      });
 
+      $("#prev").click(function(){
+        if (i == 0){
+          i = tracks.length - 1;
+        } else {
+          i -= 1;
+        }
+        prevsong(tracks[i].url);
+      });
+
+        
     });<!-- end doc ready -->
 
   </script>
@@ -75,6 +82,7 @@
 
 <body>
   <div id="fb-root"></div>
+  <div id="jquery_jplayer_1" class="jp-jplayer"></div>
   <script type="text/javascript">
     window.fbAsyncInit = function() {
         // init the FB JS SDK
@@ -120,7 +128,6 @@
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
   </script> 
-
 
 		<div class="container">
 			<% flash.each do |key, value| %>

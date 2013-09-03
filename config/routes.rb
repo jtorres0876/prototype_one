@@ -1,6 +1,5 @@
 Prototype::Application.routes.draw do
   
-
   resources :users
   resources :shares,    only: [:new, :create, :index]
   resources :sessions,  only: [:new, :create, :destroy]
@@ -10,7 +9,9 @@ Prototype::Application.routes.draw do
   match 'auth/facebook/callback', to: 'sessions#create'
   match 'auth/failure', to: redirect('/')
   match 'signout', to: 'sessions#destroy', as: 'signout'
-  match 'discover', to: 'static_pages#discover'
+  match 'discover', to: 'discover#index'
+  match 'next', to: 'discover#next'
+  match 'prev', to: 'discover#prev'
   match 'cart', to: 'static_pages#cart'
 
   # The priority is based upon order of creation:

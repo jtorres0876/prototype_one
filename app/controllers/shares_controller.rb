@@ -40,7 +40,7 @@ class SharesController < ApplicationController
 		@mytext = 'testing text'
 		respond_to do |format|
       		format.html { redirect_to cart_path }
-      		format.js
+      		format.js 	
     	end
   	end
 

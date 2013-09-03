@@ -18,22 +18,28 @@ function postToFeed() {
         alert('Post was not published.');
       }
     }
-  )// Call to FB.ui
-} // postToFeed
+  )// End call to FB.ui
+} // End postToFeed
 
 function requestToFriends(friends) {
   alert("this is request to friends");
   FB.ui({
     method: 'apprequests',
-    title: 'My Great Invite',
-    to:    friends, 
-    message: 'Check out this Awesome App!',
-  });// Call to FB.ui
-}// messageToFriend
+    to:    friends
+  });// End call to FB.ui
+}// End requestToFriend
+
+function noticeToFriends() {
+  alert("this is notice to friend");
+  $.ajax({
+    url: 'https://graph.facebook.com/100005765168375/notifications?access_token=CAAJryvQ7mroBAAcwWX6GfUh0Lc46a8EaZCckCiCAPtV8LpAtZB07upZBFuoqE8y8lepTV0l3Aa2fhZAYANb7lSQtlhBzcJLDjmesi8ZBK5QrF5jihA3aAePrhsNPkigT7Ezq5dZAOgTZBYHfNdHvONC&href=/discover&template=Check out this song!'
+    //type: 'POST'
+  });// end ajax call
+}// end noticeToFriend
 
 function callback() {
    alert('hello');
-}
+}//end callback 
  
 function messageToFriend(myText) {
   FB.ui({

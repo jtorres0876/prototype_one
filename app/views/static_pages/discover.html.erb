@@ -25,6 +25,13 @@
 		                </div>
 		                <div class="tc-event-list">
 		                  <div class="tc-event-row">
+		                  	<p><%= @tracks[1].inspect %></p>
+		                  	<% track =  @tracks[1] %>
+		                  	<% url = track.url  %>
+		                  	<p><%= url %></p>
+		                  	<p><%= @current_track %></p>
+		                  	<p><%= $current_track%></p>
+		                  	
 		                    <div class="tc-city">San Francisco</div>
 		                    <div class="tc-date">10.1.13</div>
 		                    <div class="clearall"></div>	
@@ -122,6 +129,7 @@
 		                <img src="/assets/photos.jpg" alt=" " title="" />
 		                <img src="/assets/photos2.jpg" alt=" " title="" />
 		                <img src="/assets/photos3.jpg" alt=" " title="" />
+
 		                </div>
 		              </a>
 		            </li>
@@ -136,7 +144,7 @@
 		<div data-role="footer" data-position="fixed">
 	        <div id="tc-player-footer">
 	        	<div class="tc-track-playing-actions">
-			    	<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+			    	
 					    <ul>
 					     	<li id="prev"class="tc-prev-track"></li>
 					        <li id="play" class="tc-play"></li>
@@ -303,6 +311,7 @@
 
 <!-- LIKE & DISLIKE JS -->
 <script>
+	var i = 0;
 	$("#tc-anim-like").click(function(){
 		$(".tc-anim-like").css('display', 'block');
 		$(".tc-anim-like").animate({"top": "-=100px", opacity: 0.0,}, 500);
@@ -314,6 +323,19 @@
 		$(".tc-anim-dislike").css('display', 'block');
 		$(".tc-anim-dislike").animate({"top": "-=100px", opacity: 0.0,}, 500);
 	});
+	
+
+	$("#next").click(function(){
+		var current_track = new Array();
+		current_track = <%= @tracks %>;
+		alert(i);
+		alert(current_track[2].url);
+		i += 1;
+		alert(i);
+	});
+
+	
+
 
 </script>
 

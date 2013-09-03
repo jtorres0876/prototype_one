@@ -1,0 +1,1 @@
+function nextsong(e){$("#jquery_jplayer_1").jPlayer("stop"),$("#jquery_jplayer_1").jPlayer("clearMedia"),$("#jquery_jplayer_1").jPlayer("setMedia",{mp3:e}).jPlayer("play")}function prevsong(e){$("#jquery_jplayer_1").jPlayer("stop"),$("#jquery_jplayer_1").jPlayer("clearMedia"),$("#jquery_jplayer_1").jPlayer("setMedia",{mp3:e}).jPlayer("play")}
